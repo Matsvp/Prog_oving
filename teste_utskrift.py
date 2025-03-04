@@ -37,6 +37,7 @@ with open("person.json", "r") as fil:
     print("Data fra fil:", data)
     # Utskrift: Data fra fil: {'navn': 'Mats', 'alder': 19, 'hobbyer': ['fotball', 'gaming', 'musikk']}
 
+
 # Oppsummering:
 # - json.dumps(objekt) konverterer et Python-objekt til en JSON-streng.
 # - json.loads(json_streng) konverterer en JSON-streng til et Python-objekt.
